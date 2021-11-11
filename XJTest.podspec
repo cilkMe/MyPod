@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "XJTest"
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
     s.summary      = "custom XJTest"
     s.homepage     = "https://github.com/cilkMe/MyPod"
     s.license      = {:type=>"MIT",:file=>"LICENSE"}
