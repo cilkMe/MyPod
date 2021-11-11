@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.authors      = {"xiejie" => "632663019@qq.com"}
     s.platform     = :ios, "9.0"
     s.source       = {:git => "https://github.com/cilkMe/MyPod.git", :tag => s.version}
-    s.source_files = "MyPod/*.{h,m}"
+    s.source_files = "MyPod"
     s.requires_arc = true
 end
 
