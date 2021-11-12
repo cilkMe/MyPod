@@ -17,6 +17,8 @@
 		6BA24411273D0B3D00B1C694 /* MyPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA24410273D0B3D00B1C694 /* MyPodTests.m */; };
 		6BA2441B273D0B3D00B1C694 /* MyPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2441A273D0B3D00B1C694 /* MyPodUITests.m */; };
 		6BA2441D273D0B3D00B1C694 /* MyPodUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2441C273D0B3D00B1C694 /* MyPodUITestsLaunchTests.m */; };
+		6BA2442B273DF72E00B1C694 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2442A273DF72E00B1C694 /* Test.m */; };
+		6BA2442F273DF77400B1C694 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2442E273DF77400B1C694 /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		6BA24416273D0B3D00B1C694 /* MyPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA2441A273D0B3D00B1C694 /* MyPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPodUITests.m; sourceTree = "<group>"; };
 		6BA2441C273D0B3D00B1C694 /* MyPodUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPodUITestsLaunchTests.m; sourceTree = "<group>"; };
+		6BA24429273DF72E00B1C694 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		6BA2442A273DF72E00B1C694 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		6BA2442D273DF77400B1C694 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		6BA2442E273DF77400B1C694 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		6BA243F3273D0B3B00B1C694 /* MyPod */ = {
 			isa = PBXGroup;
 			children = (
+				6BA2442C273DF73700B1C694 /* Code */,
 				6BA243F4273D0B3B00B1C694 /* AppDelegate.h */,
 				6BA243F5273D0B3B00B1C694 /* AppDelegate.m */,
 				6BA243F7273D0B3B00B1C694 /* SceneDelegate.h */,
@@ -115,6 +122,8 @@
 				6BA24402273D0B3D00B1C694 /* LaunchScreen.storyboard */,
 				6BA24405273D0B3D00B1C694 /* Info.plist */,
 				6BA24406273D0B3D00B1C694 /* main.m */,
+				6BA24429273DF72E00B1C694 /* Test.h */,
+				6BA2442A273DF72E00B1C694 /* Test.m */,
 			);
 			path = MyPod;
 			sourceTree = "<group>";
@@ -134,6 +143,15 @@
 				6BA2441C273D0B3D00B1C694 /* MyPodUITestsLaunchTests.m */,
 			);
 			path = MyPodUITests;
+			sourceTree = "<group>";
+		};
+		6BA2442C273DF73700B1C694 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6BA2442D273DF77400B1C694 /* TestModel.h */,
+				6BA2442E273DF77400B1C694 /* TestModel.m */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA2442B273DF72E00B1C694 /* Test.m in Sources */,
 				6BA243FC273D0B3B00B1C694 /* ViewController.m in Sources */,
 				6BA243F6273D0B3B00B1C694 /* AppDelegate.m in Sources */,
+				6BA2442F273DF77400B1C694 /* TestModel.m in Sources */,
 				6BA24407273D0B3D00B1C694 /* main.m in Sources */,
 				6BA243F9273D0B3B00B1C694 /* SceneDelegate.m in Sources */,
 			);
